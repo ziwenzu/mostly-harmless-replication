@@ -80,7 +80,6 @@ p           <- g + geom_point()                                +
                    ylab("Log points")                          +
                    xlab(paste("Time passage relative to year of",
                               "adoption of implied contract exception"))
-
 ggsave(p, file = "Figure 5-2-4-R.png", height = 6, width = 8, dpi = 300)
 
 # End of script
